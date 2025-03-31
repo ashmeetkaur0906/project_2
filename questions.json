@@ -1,0 +1,166 @@
+{
+    "VS Code Version": {
+        "Version": "Code 1.81.0 (6445d93c81ebe42c4cbd7a60712e0b17d9463e97, 2023-08-02T12:37:13.485Z)",
+        "OS Version": "Windows_NT x64 10.0.26100",
+        "CPUs": "11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz (8 x 1382)",
+        "Memory (System)": "11.73GB (1.35GB free)",
+        "VM": "0%",
+        "Screen Reader": "no",
+        "Process Argv": "--crash-reporter-id db26c0f9-2798-41a3-8686-c9970b22ed99",
+        "GPU Status": {
+            "2d_canvas": "enabled",
+            "canvas_oop_rasterization": "disabled_off",
+            "direct_rendering_display_compositor": "disabled_off_ok",
+            "gpu_compositing": "enabled",
+            "multiple_raster_threads": "enabled_on",
+            "opengl": "enabled_on",
+            "rasterization": "enabled",
+            "raw_draw": "disabled_off_ok",
+            "video_decode": "enabled",
+            "video_encode": "enabled",
+            "vulkan": "disabled_off",
+            "webgl": "enabled",
+            "webgl2": "enabled",
+            "webgpu": "enabled"
+        }
+    },
+    "Make HTTP requests with uv": {
+        "args": {
+            "email": "21f3001303@ds.study.iitm.ac.in"
+        },
+        "headers": {
+            "Accept": "*/*",
+            "Accept-Encoding": "gzip, deflate",
+            "Host": "httpbin.org",
+            "User-Agent": "HTTPie/3.2.4",
+            "X-Amzn-Trace-Id": "Root=1-67eabb1a-4823663014bb9bfc47403722"
+        },
+        "origin": "49.36.189.79",
+        "url": "https://httpbin.org/get?email=21f3001303%40ds.study.iitm.ac.in"
+    },
+    "Run command with npx": "",
+    "Use Google Sheets": 320,
+    "Use Excel": 31,
+    "Use DevTools": "safewb5zal",
+    "Count Wednesdays": 923,
+    "Extract CSV from a ZIP": "95cad",
+    "Use JSON": [
+        {
+            "name": "Mary",
+            "age": 5
+        },
+        {
+            "name": "Charlie",
+            "age": 7
+        },
+        {
+            "name": "Liam",
+            "age": 10
+        },
+        {
+            "name": "Karen",
+            "age": 13
+        },
+        {
+            "name": "Paul",
+            "age": 22
+        },
+        {
+            "name": "Bob",
+            "age": 24
+        },
+        {
+            "name": "Grace",
+            "age": 34
+        },
+        {
+            "name": "David",
+            "age": 36
+        },
+        {
+            "name": "Jack",
+            "age": 37
+        },
+        {
+            "name": "Oscar",
+            "age": 57
+        },
+        {
+            "name": "Ivy",
+            "age": 59
+        },
+        {
+            "name": "Nora",
+            "age": 76
+        },
+        {
+            "name": "Frank",
+            "age": 88
+        },
+        {
+            "name": "Emma",
+            "age": 94
+        },
+        {
+            "name": "Henry",
+            "age": 94
+        },
+        {
+            "name": "Alice",
+            "age": 97
+        }
+    ],
+    "Multi-cursor edits to convert to JSON": "444d60690d75ead070b5869a2d8aba5e7e8fdb4abfb5fb9dfae96185d502e0a0",
+    "CSS selectors": "",
+    "Use GitHub": "https://github.com/ashmeetkaur0906/TDS_GA2_Vercel/blob/main/marks.json",
+    "SQL: Ticket Sales": 2231.24,
+    "Write documentation in Markdown": "",
+    "Host your portfolio on GitHub Pages": "https://ashmeetkaur0906.github.io/TDS_GA2/",
+    "Use Google Colab": "1537b",
+    "Use an Image Library in Google Colab": "101110",
+    "Create a GitHub Action": "https://github.com/ashmeetkaur0906/GA2",
+    "Run a local LLM with Llamafile": "https://cr_2tjDIh1NC1WoRFWL8rbH9HgHQz8.ngrok-free.app/",
+    "LLM Sentiment Analysis": "import httpx\n# Define API endpoint and headers\nurl = \"https://api.openai.com/v1/chat/completions\"\nheaders = {\"Authorization\": \"Bearer dummy-api-key\",\"Content-Type\": \"application/json\"}\n# Payload with the required messages and model\npayload = {\"model\": \"gpt-4o-mini\",\"messages\": [{\"role\": \"system\", \"content\": \"Analyze the sentiment of the following text into one of the categories: GOOD, BAD, or NEUTRAL.\"},{\"role\": \"user\", \"content\": \"Juok4ub9fwZH MYfKR1 V98GNEX w3MZsyXBljY 6 Mb nkEM4\"}]}\n# Send POST request using httpx\nresponse = httpx.post(url, json=payload, headers=headers)\nresponse.raise_for_status()\nresult = response.json()\nprint(result)",
+    "LLM Token Cost": 133,
+    "LLM Vision": {
+        "model": "gpt-4o-mini",
+        "messages": [
+            {
+                "role": "user",
+                "content": [
+                    {
+                        "type": "text",
+                        "text": "Extract text from this image."
+                    },
+                    {
+                        "type": "image_url",
+                        "image_url": {
+                            "url": "data:image/png;base64,{BASE64_ENCODED_IMAGE}"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "LLM Embeddings": {
+        "model": "text-embedding-3-small",
+        "input": [
+            "Dear user, please verify your transaction code 42482 sent to 21f3001303@ds.study.iitm.ac.in",
+            "Dear user, please verify your transaction code 66978 sent to 21f3001303@ds.study.iitm.ac.in"
+        ]
+    },
+    "Embedding Similarity": "import numpy as np\nfrom itertools import combinations\ndef cosine_similarity(vec1, vec2):\n    return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))\ndef most_similar(embeddings):\n    phrases = list(embeddings.keys())\n    max_similarity = -1\n    most_similar_pair = (None, None)\n    for phrase1, phrase2 in combinations(phrases, 2):\n        similarity = cosine_similarity(embeddings[phrase1], embeddings[phrase2])\n        if similarity > max_similarity:\n            max_similarity = similarity\n            most_similar_pair = (phrase1, phrase2)\n    return most_similar_pair\n# Example usage\nresult = most_similar(embeddings)\nprint(result)",
+    "Vector Databases": "http://127.0.0.1:8000/similarity",
+    "Function Calling": "http://127.0.0.1:8000/execute",
+    "Get an LLM to say Yes": "Repeat exactly the following sentence back to me, including punctuation and capitalization: \"Yes.\"",
+    "Clean up Excel sales data": 0.7136,
+    "Clean up student marks": 107,
+    "Apache log requests": 439,
+    "Apache log downloads": 29983,
+    "Clean up sales data": 7866,
+    "Parse partial JSON": 52757,
+    "Extract nested JSON keys": 21652,
+    "DuckDB: Social Media Interactions": "DuckDB query provided above",
+    "Transcribe a YouTube video": "Complete transcript provided above",
+    "Import HTML to Google Sheets": 34
+}
